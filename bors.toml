@@ -1,5 +1,7 @@
 status = [
-    "CI"
+    "CI",
+    "nix-check",
+    "nix-shell",
 ]
 
 cut_body_after = "<details>"

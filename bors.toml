@@ -1,6 +1,5 @@
-# Must pass on the merge with the master branch
 status = [
-    "Merge"
+    "Integrate"
 ]
 
 cut_body_after = "<details>"

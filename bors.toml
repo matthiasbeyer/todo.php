@@ -1,5 +1,5 @@
 status = [
-    "Integrate"
+    "CI"
 ]
 
 cut_body_after = "<details>"

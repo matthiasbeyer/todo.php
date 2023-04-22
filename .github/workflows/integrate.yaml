@@ -431,3 +431,19 @@ jobs:
 
       - name: "Run unit tests with phpunit/phpunit"
         run: "vendor/bin/phpunit --colors=always --configuration=test/Unit/phpunit.xml"
+
+
+  ci:
+    name: CI
+    needs:
+      - code-coverage
+      - coding-standards
+      - dependency-analysis
+      - mutation-tests
+      - refactoring
+      - security-analysis
+      - static-code-analysis
+      - tests
+    runs-on: ubuntu-latest
+    steps:
+      - run: exit 0

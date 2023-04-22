@@ -443,6 +443,6 @@ jobs:
       - "security-analysis"
       - "static-code-analysis"
       - "tests"
-    runs-on: ubuntu-latest
+    runs-on: "ubuntu-latest"
     steps:
-      - run: exit 0
+      - run: "exit 0"

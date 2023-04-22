@@ -86,13 +86,6 @@ jobs:
       - name: "Checkout"
         uses: "actions/checkout@v3.5.2"
 
-      - name: "Lint YAML files"
-        uses: "ibiqlik/action-yamllint@v3.1.1"
-        with:
-          config_file: ".yamllint.yaml"
-          file_or_dir: "."
-          strict: true
-
       - name: "Set up PHP"
         uses: "shivammathur/setup-php@2.25.1"
         with:

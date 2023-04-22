@@ -434,16 +434,16 @@ jobs:
 
 
   ci:
-    name: CI
+    name: "CI"
     needs:
-      - code-coverage
-      - coding-standards
-      - dependency-analysis
-      - mutation-tests
-      - refactoring
-      - security-analysis
-      - static-code-analysis
-      - tests
+      - "code-coverage"
+      - "coding-standards"
+      - "dependency-analysis"
+      - "mutation-tests"
+      - "refactoring"
+      - "security-analysis"
+      - "static-code-analysis"
+      - "tests"
     runs-on: ubuntu-latest
     steps:
       - run: exit 0

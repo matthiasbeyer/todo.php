@@ -1,7 +1,0 @@
-/.build/
-/.notes/
-/.phive/
-/vendor/
-!/.phive/phars.xml
-
-/.state

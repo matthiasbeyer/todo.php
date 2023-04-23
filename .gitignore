@@ -1,3 +1,4 @@
+/.state
 
 ###> symfony/framework-bundle ###
 /.env.local

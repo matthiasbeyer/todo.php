@@ -1,0 +1,8 @@
+status = [
+    "nix-check",
+    "nix-shell",
+]
+
+cut_body_after = "<details>"
+
+delete_merged_branches = true

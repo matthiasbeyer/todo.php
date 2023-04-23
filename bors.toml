@@ -1,5 +1,4 @@
 status = [
-    "CI",
     "nix-check",
     "nix-shell",
 ]
@@ -7,4 +6,3 @@ status = [
 cut_body_after = "<details>"
 
 delete_merged_branches = true
-

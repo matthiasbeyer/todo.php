@@ -58,6 +58,7 @@
             pkgs.php81Packages.composer
             pkgs.postgresql_15
             pkgs.pgcli
+            pkgs.symfony-cli
 
             start_postgres
             stop_postgres

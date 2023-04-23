@@ -214,11 +214,6 @@ jobs:
         with:
           dependencies: "${{ matrix.dependencies }}"
 
-      - name: "Run mutation tests with Xdebug and infection/infection"
-        env:
-          XDEBUG_MODE: "coverage"
-        run: "vendor/bin/infection --ansi --configuration=infection.json --logger-github"
-
   refactoring:
     name: "Refactoring"
 

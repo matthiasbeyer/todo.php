@@ -3,24 +3,24 @@
 declare(strict_types=1);
 
 /**
- * Copyright (c) 2017-2023 Andreas Möller
+ * Copyright (c) 2017-2023 Matthias Beyer
  *
  * For the full copyright and license information, please view
  * the LICENSE.md file that was distributed with this source code.
  *
- * @see https://github.com/ergebnis/php-package-template
+ * @see https://github.com/matthiasbeyer/todo.php
  */
 
-namespace Ergebnis\Package\Test\Unit;
+namespace TodoPHP\Package\Test\Unit;
 
-use Ergebnis\Package\Example;
-use Ergebnis\Package\Test;
 use PHPUnit\Framework;
+use TodoPHP\Package\Example;
+use TodoPHP\Package\Test;
 
 /**
  * @internal
  *
- * @covers \Ergebnis\Package\Example
+ * @covers \TodoPHP\Package\Example
  */
 final class ExampleTest extends Framework\TestCase
 {

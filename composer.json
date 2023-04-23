@@ -1,18 +1,18 @@
 {
-  "name": "ergebnis/php-package-template",
-  "description": "Provides a GitHub repository template for a PHP library, using GitHub Actions.",
+  "name": "matthiasbeyer/todophp",
+  "description": "A TODO application",
   "license": "MIT",
   "type": "library",
   "authors": [
     {
-      "name": "Andreas Möller",
-      "email": "am@localheinz.com"
+      "name": "Matthias Beyer",
+      "email": "mail@beyermatthias.de"
     }
   ],
-  "homepage": "https://github.com/ergebnis/php-package-template",
+  "homepage": "https://github.com/matthiasbeyer/todophp",
   "support": {
-    "issues": "https://github.com/ergebnis/php-package-template/issues",
-    "source": "https://github.com/ergebnis/php-package-template"
+    "issues": "https://github.com/matthiasbeyer/todophp/issues",
+    "source": "https://github.com/matthiasbeyer/todophp"
   },
   "require": {
     "php": "~8.1.0 || ~8.2.0"
@@ -25,7 +25,6 @@
     "ergebnis/phpstan-rules": "^1.0.0",
     "ergebnis/phpunit-slow-test-detector": "^2.1.1",
     "fakerphp/faker": "^1.21.0",
-    "infection/infection": "~0.26.20",
     "phpstan/extension-installer": "^1.3.0",
     "phpstan/phpstan": "^1.10.14",
     "phpstan/phpstan-deprecation-rules": "^1.1.3",
@@ -38,19 +37,18 @@
   },
   "autoload": {
     "psr-4": {
-      "Ergebnis\\Package\\": "src/"
+      "TodoPHP\\Package\\": "src/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Ergebnis\\Package\\Test\\": "test/"
+      "TodoPHP\\Package\\Test\\": "test/"
     }
   },
   "config": {
     "allow-plugins": {
       "composer/package-versions-deprecated": true,
       "ergebnis/composer-normalize": true,
-      "infection/extension-installer": true,
       "phpstan/extension-installer": true
     },
     "platform": {

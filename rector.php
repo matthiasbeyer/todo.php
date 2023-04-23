@@ -3,12 +3,12 @@
 declare(strict_types=1);
 
 /**
- * Copyright (c) 2017-2023 Andreas Möller
+ * Copyright (c) 2017-2023 Matthias Beyer
  *
  * For the full copyright and license information, please view
  * the LICENSE.md file that was distributed with this source code.
  *
- * @see https://github.com/ergebnis/php-package-template
+ * @see https://github.com/matthiasbeyer/todo.php
  */
 
 use Rector\Config;

@@ -20,8 +20,8 @@ $license = License\Type\MIT::markdown(
         License\Year::fromString('2017'),
         new \DateTimeZone('UTC'),
     ),
-    License\Holder::fromString('Andreas Möller'),
-    License\Url::fromString('https://github.com/ergebnis/php-package-template'),
+    License\Holder::fromString('Matthias Beyer'),
+    License\Url::fromString('https://github.com/matthiasbeyer/todo.php'),
 );
 
 $license->save();

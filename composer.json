@@ -43,7 +43,7 @@
   },
   "autoload-dev": {
     "psr-4": {
-      "Ergebnis\\Package\\Test\\": "test/"
+      "TodoPHP\\Package\\Test\\": "test/"
     }
   },
   "config": {

@@ -38,7 +38,7 @@
 
           if [ ! -d $PGDATA ]; then
             echo 'Initializing postgresql database...'
-            LC_ALL=C.utf8 initdb $PGDATA --auth=trust >/dev/null
+            LC_ALL=C.utf8 initdb $PGDATA --auth=trust
           fi
         '';
 

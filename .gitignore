@@ -4,7 +4,4 @@
 /vendor/
 !/.phive/phars.xml
 
-# Devenv
-.devenv*
-devenv.local.nix
-
+/.state

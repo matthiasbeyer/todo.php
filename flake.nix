@@ -55,6 +55,7 @@
         devShells.default = pkgs.mkShell {
           buildInputs = [
             phps.packages."${system}".php81
+            pkgs.php81Packages.composer
             pkgs.postgresql_15
             pkgs.pgcli
 

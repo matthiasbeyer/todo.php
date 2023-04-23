@@ -29,7 +29,7 @@
           export PGDATA=$PWD/.state/postgres_data
           export PGHOST=$PWD/.state/postgres
           export LOG_PATH=$PWD/.state/postgres/LOG
-          export PGDATABASE=todophp
+          export PGDATABASE=postgres
           export DATABASE_CLEANER_ALLOW_REMOTE_DATABASE_URL=true
 
           if [ ! -d $PGHOST ]; then
